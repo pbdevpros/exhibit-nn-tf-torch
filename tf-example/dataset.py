@@ -2,7 +2,6 @@
 
 import math
 import tensorflow as tf
-from utilities import plot_metric 
 
 
 def generate_data_sinx():
