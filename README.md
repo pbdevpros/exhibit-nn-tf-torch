@@ -67,3 +67,14 @@ class BasicNN(torch.nn.Module):
 ```
 
 The model training and evaluate have bigger differences in syntax, where `torch` requires defining the training steps in a more manual way. See the `main.py` scripts in either folders to see the training implementation. The dataset (the sine function) is created inside the `dataset.py` script. A plotting utility is in `utilities.py`
+
+# Testing
+
+To reproduce the results above, run:
+
+```sh
+$ python tf-example/main.py # tensorflow
+$ python torch-example/main.py # torch
+```
+
+Make sure that numpy, PyTorch and TensorFlow are installed on the system.
